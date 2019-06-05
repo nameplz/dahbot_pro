@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css?family=Sunflower:300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  vertical-align: baseline;
+  font-size: 100%;
+}
+html {
+  font-family: "Sunflower", sans-serif;
+}
+body {
+  width: 100%;
+  background: #1e2022;
+}
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+h1 {
+  color: #fff;
+  font-size: 48px;
+}
+p {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+/* work */
+
+.result {
+  text-align: center;
+  width: 100%;
+}
+.result img {
+  margin: 1%;
+  width: 45%;
+}
+.work {
+  text-align: center;
+  width: 100%;
+}
+.work img {
+  margin: 1%;
+  width: 45%;
+}
+.header2 {
+  text-align: center;
+  width: 100%;
+}
+.header2 img {
+  margin: 1%;
+  width: 40%;
+}
+.header3 {
+  text-align: center;
+  width: 100%;
+}
+.header3 img {
+  margin: 1%;
+  width: 50%;
+}
+
+/* footer */
+
+footer p {
+  text-align: center;
+  color: grey;
+  margin: 60px auto;
+}
+
+/* responsiveness */
+
+@media only screen and (max-width: 991px) {
+  header {
+    text-align: left;
+    margin: 100px 0 100px 30px;
+  }
+  header h1 {
+    font-size: 36px;
+  }
+  header p {
+    font-size: 12px;
+    width: 90%;
+  }
+  .work img {
+    margin: 2%;
+    width: 90%;
+  }
+  .header2 {
+    margin: 130px 0 40px 12px;
+  }
+  .header2 h1 {
+    font-size: 36px;
+  }
+  .header2 p {
+    font-size: 12px;
+    width: 90%;
+  }
+  .work2 img {
+    margin: 2%;
+  }
+}
